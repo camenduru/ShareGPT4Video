@@ -121,4 +121,4 @@ with gr.Blocks(title='ShareGPT4Video-8B🚀', theme=gr.themes.Default(), css=blo
     clear_btn.click(clear_history, [state, state_],
                     [video, textbox, first_run, state, state_, chatbot])
 
-demo.launch()
+demo.launch(share=True)
